@@ -1,4 +1,4 @@
-
+// *****
 Procedure AddAttributeStartChoice(Form, Item, StandardProcessing, AddInfo = Undefined) Export
 	If TypeOf(Form[Item.Name]) = Type("CatalogRef.AddAttributeAndPropertyValues") Then
 		StandardProcessing = False;
